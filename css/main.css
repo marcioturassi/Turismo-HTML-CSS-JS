@@ -1,0 +1,139 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+ul {
+    padding: 0px!important;
+}
+.menu-principal {
+    width: 100%;
+    background-color: #B39FFF;
+    height: 60px;
+}
+main {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+.logo {
+    float: left;
+    width: 70%;
+}
+.redes-sociais ul li {
+    margin-left: 25px;
+    display: inline-block;
+    float: left;
+}
+.redes-sociais {
+    width: 25%;
+    float: right;
+}
+.header2 {
+    background-color: #FFFFFF;
+    width: 980px;
+    margin: 0 auto;
+    padding: 15px;
+}
+.menu {
+    border-bottom: 1px solid #000000;
+    height: 80px;
+}
+.menu1 {
+    width: 70%;
+    float: left;
+}
+.menu1 ul li {
+    display: inline-block;
+    color: #363636;
+    margin-left: 15px;
+    height: 40px;
+}
+.menu1 ul li:hover {
+    border-bottom: 3px solid #B39FFF;
+}
+.menu1 ul li a {
+    color: #363636;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.menu1 ul li a:hover {
+    color: #B39FFF;
+}
+
+.search {
+    text-align: center;
+    width: 25%;
+    float: right;
+}
+.search input {
+    background-image: url('../imagens/lupa.png');
+    background-repeat: no-repeat;
+    background-position: top right 5px;
+    background-size: 25px;
+    height: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #d6d6d6;
+}
+.fullscreen {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+button.slick-prev {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 50px;
+    z-index: 9;
+    background-color: #FFFFFF;
+    position: absolute;
+    background-image: url('../imagens/seta-left.png');
+    background-size: 25px 50px;
+    top: 35%;
+    left: 15%;
+}
+button.slick-next {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 50px;
+    z-index: 9;
+    background-color: #FFFFFF;
+    position: absolute;
+    background-image: url('../imagens/seta-right.png');
+    background-size: 25px 50px;
+    top: 35%;
+    right: 15%;
+}
+.slider {
+    width: 100%;
+}
+.slick-dots {
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 42%;
+    top: 310px;
+}
+.slick-dots li {
+    display: inline-block;
+    padding-left: 10px;
+}
+.slick-dots li button {
+    font-size: 0px;
+    border: 3px solid #FFFFFF;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background: transparent;
+    cursor: pointer;
+}
+li.slick-active button {
+    background-color: #B39FFF;
+}
+.slick-initialized {
+    overflow: hidden;
+}
